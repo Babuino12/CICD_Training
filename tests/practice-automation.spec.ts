@@ -13,7 +13,7 @@ test.describe('Practice Automation', () => {
     });
     await expect(page).toHaveTitle('Test Login | Practice Test Automation');
   });
-  test('should login', async ({ page }) => {
+  test('shoiyld login', async ({ page }) => {
     const expected = 'Logged In Successfully';
     const username = page.getByRole('textbox', { name: 'Username' });
     const password = page.getByRole('textbox', { name: 'Password' });
